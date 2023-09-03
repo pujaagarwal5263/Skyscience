@@ -1,0 +1,105 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+    height: 100%; /* Ensure the html and body elements cover the entire viewport */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #C4E3FF;
+}
+
+.main-page-cards{
+    background-color: #207cca;
+}
+
+.cards{
+    background-color: #2989d8;
+}
+
+#importance-of-aviation, #aviation-history{
+    background: linear-gradient(to bottom, #1e5799, #2989d8, #207cca, #7db9e8, #1e5799);
+}
+
+#types-of-aviation{
+    background-color:#1e5799;
+}
+
+header {
+    background-color: #1e5799; /* Change the header background color to teal */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.logo img {
+    width: 100px; /* Adjust the size according to your logo */
+    margin: 10px;
+}
+
+.logo h1 {
+    font-size: 32px;
+}
+.logo i {
+    font-size: 60px; /* Increase the font size as desired */
+    margin-right: 10px;
+    color: #fff;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Update the link color */
+nav a {
+    text-decoration: none;
+    color:  #7db9e8; /* Change the link color to teal */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0); /* Set a completely transparent white background for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Add the following CSS for the aviation-type class */
+
+.aviation-type {
+    /* background: linear-gradient(to bottom, #1e5799, #2989d8, #207cca, #7db9e8, #1e5799); */
+    background-color: #207cca;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    margin-bottom: 20px;
+}
+/* Update the footer background color */
+footer {
+    background-color:  #1e5799; /* Change the footer background color to teal */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
